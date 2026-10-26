@@ -1,0 +1,24 @@
+SAMPLE TEST RUN
+
+Run Main, then enter the following when asked:
+
+Menu choice            : 1   (Register student profile)
+Student name           : Priyanka
+CGPA (0-10)            : 8.2
+Choose career goal     : 4   (AI Engineer)
+Interest numbers       : 5,6 (AI and Data Science)
+  Marks in AI          : 85
+  Marks in Data Science: 80
+Menu choice            : 3   (Get course recommendations)
+
+Expected result:
+- AI and Data Science courses appear at the top with high match percentages.
+- Each course shows the reason it was recommended.
+
+Then:
+Menu choice            : 4   (Mark a course as completed)
+Course code            : EL202
+Menu choice            : 3   (Get recommendations again)
+
+Expected result: EL202 no longer appears in the list.
+Menu choice            : 6   (Exit)
